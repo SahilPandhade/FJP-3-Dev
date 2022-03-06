@@ -11,7 +11,7 @@
 
 // A: It's not a string!
 // B: Yay it's a string!
-// C: TypeError
+// C: TypeError *
 // D: undefined
 
 // // < --------------Question 2----------------->
@@ -27,7 +27,7 @@
 // console.log(user.email)
 
 // A: my@email.com
-// B: new@email.com
+// B: new@email.com *
 // C: undefined
 // D: ReferenceError
 
@@ -42,7 +42,7 @@
 
 // A: ['🍌', '🍊', '🍎']
 // B: ['🍊', '🍎']
-// C: ['🍇', '🍊', '🍎']
+// C: ['🍇', '🍊', '🍎'] *
 // D: ['🍇', '🍌', '🍊', '🍎']
 
 // // < --------------Question 4----------------->
@@ -58,7 +58,7 @@
 
 // A: 1
 // B: 2
-// C: 3
+// C: 3 *
 // D: 4
 
 // // < --------------Question 5----------------->
@@ -89,7 +89,7 @@
 // myFunc(3);
 
 // A: 2 4 and 3 6
-// B: 2 NaN and 3 NaN
+// B: 2 NaN and 3 NaN *
 // C: 2 Error and 3 6
 // D: 2 4 and 3 Error
 
@@ -125,9 +125,9 @@
 
 // console.log(emojis.flat(1));
 // A: ['🥑', ['✨', '✨', ['🍕', '🍕']]]
-// B: ['🥑', '✨', '✨', ['🍕', '🍕']]
+// B: ['🥑', '✨', '✨', ['🍕', '🍕']] *
 // C: ['🥑', ['✨', '✨', '🍕', '🍕']]
-// D: ['🥑', '✨', '✨', '🍕', '🍕']
+// D: ['🥑', '✨', '✨', '🍕', '🍕'] 
 
 // // < --------------Question 10----------------->
 
@@ -140,7 +140,7 @@
 
 // getInfo();
 // A: "number"
-// B: "string"
+// B: "string" *
 // C: undefined
 // D: ReferenceError
 
@@ -159,7 +159,7 @@
 
 // add(4);
 
-// A: 4 5 6
+// A: 4 5 6  *
 // B: 6 5 4
 // C: 4 function function
 // D: undefined undefined 6
@@ -176,7 +176,7 @@
 // }
 
 // A: We have to buy bananas!
-// B: We don't have to buy bananas
+// B: We don't have to buy bananas *
 // C: undefined
 // D: 1
 
@@ -200,7 +200,7 @@
 // console.log(member.getLastName?.());
 
 // A: undefined undefined undefined undefined
-// B: Mara undefined Lydia Hallie ReferenceError
+// B: Mara undefined Lydia Hallie ReferenceError *
 // C: Mara null Lydia Hallie null
 // D: null ReferenceError null ReferenceError
 
@@ -212,11 +212,11 @@
 // console.log(list[(num += 1)]);
 // A: 🤠
 // B: 🥰
-// C: SyntaxError
+// C: SyntaxError *
 // D: ReferenceError
 
 // // < --------------Question 15----------------->
-// // read:https://www.w3schools.com/react/react_es6_spread.asp
+// // read: https://www.w3schools.com/react/react_es6_spread.asp
 // function sumValues(x, y, z) {
 //   return x + y + z;
 // }
@@ -243,8 +243,8 @@
 
 // console.log(person);
 // A: {name: "Sarah", age: 22}
-// B: {name: "Sarah", age: 23}
-// C: {name: "Lydia", age: 22}
+// B: {name: "Sarah", age: 23} *
+// C: {name: "Lydia", age: 22} 
 // D: { name: "Lydia", age: 23 }
 
 // // < --------------Question 17----------------->
@@ -258,7 +258,7 @@
 // A: ['🍕', '🍫', '🥑', '🍔']
 // B: ['🍝', '🍫', '🥑', '🍔']
 // C: ['🍝', '🍕', '🍫', '🥑', '🍔']
-// D: ReferenceError
+// D: ReferenceError *
 
 // // < --------------Question 18----------------->
 
@@ -276,7 +276,7 @@
 // A: true
 // B: false
 // C: undefined
-// D: TypeError
+// D: TypeError *
 
 // // < --------------Question 19----------------->
 
@@ -290,7 +290,7 @@
 // console.log(nums(4, 2));
 // console.log(nums(1, 2));
 
-// A: a is bigger, 6 and b is bigger, 3
+// A: a is bigger, 6 and b is bigger, 3 *
 // B: a is bigger, undefined and b is bigger, undefined
 // C: undefined and undefined
 // D: SyntaxError
@@ -309,7 +309,7 @@
 // A: name Lydia and age 21
 // B: ["name", "Lydia"] and ["age", 21]
 // C: ["name", "age"] and undefined
-// D: Error
+// D: Error  *
 
 // // < --------------Question 21----------------->
 
@@ -319,13 +319,13 @@
 // A: [1, 2, 3, 4, 5]
 // B: [1, 2, 3, 5]
 // C: [1, 2, 3, 4]
-// D: Error
+// D: Error *
 
 // // < --------------Question 22----------------->
 // console.log('I want pizza'[0]);
 // A: """
 // B: "I"
-// C: SyntaxError
+// C: SyntaxError *
 // D: undefined
 
 // // < --------------Question 23----------------->
@@ -342,8 +342,8 @@
 
 // console.log(checkAge(21));
 // A: "Sorry, you're too young."
-// B: "Yay! You're old enough!"
-// C: ReferenceError
+// B: "Yay! You're old enough!" 
+// C: ReferenceError  *
 // D: undefined
 
 // // < --------------Question 24----------------->
@@ -357,7 +357,7 @@
 // city = 'Amsterdam';
 
 // console.log(person);
-// A: { name: "Lydia", age: 21 }
+// A: { name: "Lydia", age: 21 } *
 // B: { name: "Lydia", age: 21, city: "Amsterdam" }
 // C: { name: "Lydia", age: 21, city: undefined }
 // D: "Amsterdam"
@@ -369,7 +369,7 @@
 
 // console.log(admin);
 // A: { admin: true, user: { name: "Lydia", age: 21 } }
-// B: { admin: true, name: "Lydia", age: 21 }
+// B: { admin: true, name: "Lydia", age: 21 } *
 // C: { admin: true, user: ["Lydia", 21] }
 // D: { admin: true }
 
@@ -377,7 +377,7 @@
 
 // console.log(3 + 4 + '5');
 // A: "345"
-// B: "75"
+// B: "75" *
 // C: 12
 // D: "12"
 
@@ -392,7 +392,7 @@
 //   console.log(item);
 // }
 
-// A: { name: "Lydia" }, { age: 21 }
+// A: { name: "Lydia" }, { age: 21 } *
 // B: "name", "age"
 // C: "Lydia", 21
 // D: ["name", "Lydia"], ["age", 21]
@@ -402,7 +402,7 @@
 // const numbers = [1, 2, 3];
 // numbers[10] = 11;
 // console.log(numbers);
-// A: [1, 2, 3, 7 x null, 11]
+// A: [1, 2, 3, 7 x null, 11] *
 // B: [1, 2, 3, 11]
 // C: [1, 2, 3, 7 x empty, 11]
 // D: SyntaxError
@@ -417,7 +417,7 @@
 
 // console.log(sayHi.call(person, 21));
 // console.log(sayHi.bind(person, 21));
-// A: undefined is 21 Lydia is 21
+// A: undefined is 21 Lydia is 21 *
 // B: function function
 // C: Lydia is 21 Lydia is 21
 // D: Lydia is 21 function
@@ -429,6 +429,6 @@
 
 // console.log(num);
 // A: 8
-// B: 10
+// B: 10 *
 // C: SyntaxError
 // D: ReferenceError
